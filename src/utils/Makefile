@@ -1,6 +1,6 @@
 
 CC = gcc
-CFLAGS = -Wall -Wstrict-prototypes -mavx2
+CFLAGS = -Wall -Wstrict-prototypes -mavx2 -O2
 
 all: lpcchksum genhdr
 
